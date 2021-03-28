@@ -1,8 +1,11 @@
 body {
-    background: lightblue;
+    background-color: lightblue;
 }
 
 h1 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -14,13 +17,26 @@ h1 > em {
     /*background-color: black;*/
 }
 
-p#snark {
+#snark {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
     font-size: 24px;
 }
 
-p#about {
+div#intro {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+
+}
+
+#hi, #shortblondevegan, #welcome {
     text-align: center;
     font-size: 20px;
     font-family: Georgia, serif;
@@ -28,4 +44,13 @@ p#about {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.25;
+}
+
+div#cone {
+    text-align: center;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px #C68F47;
 }
