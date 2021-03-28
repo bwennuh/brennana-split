@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #9FF1FE;
 }
 
 h1 {
@@ -8,14 +8,22 @@ h1 {
     margin-right: auto;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
 }
 
 
-h1 > em {
+h1 em {
     font-size: 30px;
     color: white;
     /*background-color: black;*/
 }
+
+span.alamode {
+    background-color: #FEA9EB;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
 
 #snark {
     text-align: center;
@@ -33,7 +41,6 @@ div#intro {
     padding-bottom: 10px;
     padding-left: 10px;
     border-radius: 30px;
-
 }
 
 #hi, #shortblondevegan, #welcome {
@@ -48,9 +55,11 @@ div#intro {
 
 div#cone {
     text-align: center;
+    /*
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 100px #C68F47;
+    */
 }

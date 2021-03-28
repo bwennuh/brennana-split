@@ -1,4 +1,4 @@
-const aLaMode = document.getElementById("alamode", "em");
+const aLaMode = document.getElementById("alamode");
 
 aLaMode.addEventListener("click", function() {
     alert("with whipped cream & sprinkles!");
@@ -12,17 +12,16 @@ button.addEventListener("clicke", event => {
 });
 */
 
+let aLaModeHover = aLaMode;
 
-
-aLaMode.addEventListener("mouseover", function(event) {
-    aLaMode.setAttribute("style", "background-color: lightgreen");
+aLaModeHover.addEventListener("mouseover", function() {
+    aLaModeHover.setAttribute("style", "background-color: white");
     //event.target.style.color = "green";
 
     setTimeout(function() {
-        aLaMode.setAttribute("style", "background-color: ");
-    }, 500);
+        aLaModeHover.setAttribute("style", "background-color: ");
+    }, 1000);
 }, false);
 
-//aLaMode.addEventListener();
 
 
