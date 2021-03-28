@@ -11,6 +11,7 @@ h1 {
 h1 > em {
     font-size: 30px;
     color: white;
+    /*background-color: black;*/
 }
 
 p#snark {
