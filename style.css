@@ -166,6 +166,25 @@ span.alamode {
     margin-top: -175px;
 }  
 
+.aboutme {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    line-height: 1.25;
+}
+
+#gettoknowme, #funfacts {
+    background-color: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 5px solid pink;
+    border-radius: 30px;
+}
 
 
 
