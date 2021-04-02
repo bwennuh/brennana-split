@@ -2,6 +2,10 @@ body {
     background-color: #9FF1FE;
 }
 
+a:visited {
+    color: purple;
+}
+
 h1 {
     max-width: 400px;
     margin-left: auto;
@@ -14,7 +18,6 @@ h1 {
 h1 em {
     font-size: 30px;
     color: white;
-    /*background-color: black;*/
 }
 
 span.alamode {
@@ -72,6 +75,7 @@ span.alamode {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 4;
 }
 
 #scoop3::after {
@@ -83,7 +87,7 @@ span.alamode {
     background: lightyellow;
     width: 180px;
     border-radius: 100%;
-    z-index: 2;
+    z-index: 4;
 }
 
 #scoop2 {
@@ -99,6 +103,7 @@ span.alamode {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
 }
 
 #scoop2::after {
@@ -110,7 +115,7 @@ span.alamode {
     background: pink;
     width: 180px;
     border-radius: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 
 #scoop1 {
@@ -126,6 +131,7 @@ span.alamode {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 #scoop1::after {
@@ -153,6 +159,7 @@ span.alamode {
     z-index: 1;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
 
 #cone p {
